@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #111;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+#gameCanvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+#ui-layer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    pointer-events: none; /* Let clicks pass through to canvas */
+}
